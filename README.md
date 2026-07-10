@@ -59,7 +59,7 @@ python -m pip install -r requirements.txt
 ### 3. Start the application
 
 ```bash
-python "leeway_gui (1).py"
+python "leeway_gui.py"
 ```
 
 On the first successful start, the program creates `domains.dat` if necessary. It also creates `leeway.config` from the installed OpenDrift version's available Leeway settings when no configuration file is present.
