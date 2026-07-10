@@ -227,4 +227,8 @@ Before publishing a release:
 
 ## Licence and attribution
 
-Add a `LICENSE` file before public distribution and document the licence/attribution requirements for OpenDrift, ICATMAR data, and any bundled example forcing data. No licence is assumed by this repository.
+This project is distributed under the GNU General Public License, version 3 (GPL-3.0-or-later). The complete licence terms are provided in the repository's LICENSE file.
+
+You may use, copy, modify, and redistribute this software under the GPLv3 terms, provided that redistributed versions retain the applicable copyright and licence notices and are distributed under the same licence. The software is provided without warranty, to the maximum extent permitted by law.
+
+This repository includes or interoperates with third-party software and data services, including OpenDrift and ICATMAR ERDDAP. Their respective licences, terms of use, data-attribution requirements, and other conditions remain applicable. Before public distribution, verify and include any required attribution for OpenDrift, ICATMAR data, and bundled example forcing data.
