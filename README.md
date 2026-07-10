@@ -6,7 +6,7 @@ A desktop graphical interface for running **OpenDrift Leeway** search-and-rescue
 
 | File | Purpose |
 |---|---|
-| `leeway_gui (1).py` | Main GUI application. |
+| `leeway_gui.py` | Main GUI application. |
 | `requirements.txt` | Python package requirements for a dedicated virtual environment. |
 | `domains.dat` | Optional named geographical domains. Created automatically with a `None` and `Default` domain if missing. |
 | `leeway.config` | OpenDrift Leeway configuration. Created automatically on the first successful start with OpenDrift installed. |
