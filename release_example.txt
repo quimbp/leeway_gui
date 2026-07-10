@@ -1,0 +1,4 @@
+# yyyy mm dd hh mm ss lon lat [optional data]
+# Timestamp is UTC. Longitude and latitude are decimal degrees.
+2026 07 10 12 00 00 2.1734 41.3851
+2026 07 10 13 00 00 2.1800 41.3900 second_release

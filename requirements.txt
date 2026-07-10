@@ -1,0 +1,13 @@
+# Recommended interpreter: Python 3.11
+#
+# Top-level runtime dependencies for the Leeway GUI. Version ranges provide a
+# maintainable, compatible environment rather than claiming an untested exact
+# lock. After validating on a target platform, create requirements-lock.txt
+# with: python -m pip freeze > requirements-lock.txt
+
+opendrift>=1.14,<2
+xarray>=2024.1,<2027
+netCDF4>=1.6,<2
+matplotlib>=3.8,<4
+cmocean>=4.0,<5
+trajan>=0.8,<2
