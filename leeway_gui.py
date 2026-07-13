@@ -1075,10 +1075,11 @@ class LeewayGUI(tk.Tk):
             self.after(0, lambda: self._on_finished(True, params))
 
         except Exception as exc:
+            error_msg = str(exc)
             tb = traceback.format_exc()
             self._log("ERROR during simulation:")
             self._log(tb)
-            self.after(0, lambda: self._on_finished(False, params, str(exc)))
+            self.after(0, lambda message=error_msg: self._on_finished(False, params, message),)
 
     def _on_finished(self, success, params, error_msg=None):
         self.progress.stop()
