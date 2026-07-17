@@ -54,6 +54,7 @@ from tkinter import ttk, filedialog, messagebox, scrolledtext
 # CONFIGURATION / DEFAULTS
 # ----
 ERDDAP_URL = "https://erddap.icatmar.cat/erddap/griddap/predictions"
+ERDDAP_URL = "https://erddap.icatmar.cat/erddap/griddap/sea_surface_forecast"
 LOCAL_NC = "icatmar_predictions_currents.nc"
 
 # Optional spatial sub-setting used for the ERDDAP download and for plotting.
@@ -998,6 +999,8 @@ class LeewayGUI(tk.Tk):
 
             # Drift configuration.
             o.set_config("drift:current_uncertainty", params["current_uncertainty"])
+            #o.set_config('environment:constant:horizontal_diffusivity', 100.0) # ERROR
+
             try:
                 o.set_config("drift:advection_scheme", params["advection_scheme"])
             except Exception as exc:
